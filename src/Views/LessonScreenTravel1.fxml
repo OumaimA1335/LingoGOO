@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LessonScreenTravel1Controller">
+   <children>
+      <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="101.0" layoutY="62.0" startX="-100.0" />
+      <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="106.0" layoutY="342.0" startX="-100.0" />
+      <Text fx:id="title" layoutX="146.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lesson 1 : Travel">
+         <font>
+            <Font name="Bell MT Bold" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By the end of this lesson, you will know how to greet people" />
+      <Text layoutX="160.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ask for directions, and use common travel words." />
+      <Text fx:id="description" layoutX="122.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this lesson, you will learn basic English words and phrases for traveling" />
+      <ImageView fitHeight="176.0" fitWidth="283.0" layoutX="-15.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true" x="50.0">
+         <image>
+            <Image url="@../images/airoport.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="181.0" fitWidth="143.0" layoutX="405.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/passport.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="word1" layoutX="51.0" layoutY="290.0" mnemonicParsing="false" onAction="#playAirportSound" prefHeight="37.0" prefWidth="235.0" style="-fx-background-radius: 20;" text="Airport">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="word2" layoutX="348.0" layoutY="290.0" mnemonicParsing="false" onAction="#playPassportSound" prefHeight="37.0" prefWidth="235.0" style="-fx-background-radius: 20;" text="Passport">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="40.0" fitWidth="56.0" layoutX="527.0" layoutY="14.0" onMouseClicked="#Next" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="56.0" layoutX="45.0" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Previous" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

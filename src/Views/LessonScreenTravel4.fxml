@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LessonScreenTravel4Controller">
+   <children>
+      <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="121.0" layoutY="82.0" startX="-120.99999237060547" startY="-1.52587890625E-5" />
+      <Text fx:id="nomLesson" layoutX="166.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lesson 4 : Travel">
+         <font>
+            <Font name="Bell MT Bold" size="41.0" />
+         </font>
+      </Text>
+      <Text fx:id="description" layoutX="117.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this lesson, you’ll learn basic present tense conjugation of travel-related verbs." />
+      <ImageView fx:id="image2" fitHeight="40.0" fitWidth="40.0" layoutX="550.0" layoutY="34.0" onMouseClicked="#Next" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="verb" fill="#a470bb" layoutX="249.0" layoutY="137.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" text="To Swim" wrappingWidth="122.89923095703125">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="text1" layoutX="155.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I swim" wrappingWidth="108.53668212890625">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" layoutX="155.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You swim  " wrappingWidth="75.99999999999994">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text3" layoutX="157.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He swims" wrappingWidth="108.53668212890625">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text6" layoutX="370.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="They swim" wrappingWidth="108.53668212890625">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text4" layoutX="375.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="She swims" wrappingWidth="108.53668212890625">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#a470bb" layoutX="256.0" layoutY="250.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Example" wrappingWidth="108.53668212890625">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="example" layoutX="132.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We swim in the pool every morning during the holidays" wrappingWidth="394.1367492675781">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="56.0" fitWidth="53.0" layoutX="280.0" layoutY="309.0" onMouseClicked="#playToSwimSound" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/haut-parleur-fort.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="text5" layoutX="375.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We swim" wrappingWidth="108.53668212890625">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="image2" fitHeight="40.0" fitWidth="40.0" layoutX="43.0" layoutY="34.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Previous" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="76.0" layoutX="25.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/beach-volley.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="123.0" layoutX="497.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/vagues.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

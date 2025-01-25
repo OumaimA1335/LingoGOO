@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ThemeController">
+   <children>
+      <ImageView fitHeight="612.0" fitWidth="616.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#6b026a" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Topic To Start Learning">
+         <font>
+            <Font name="Gill Sans MT Bold" size="30.0" />
+         </font>
+         <StackPane.margin>
+            <Insets bottom="500.0" />
+         </StackPane.margin>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ece1f2" height="461.0" stroke="#713e79" strokeLineCap="ROUND" strokeType="INSIDE" style="-fx-border-radius: 20;" width="515.0" StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets top="60.0" />
+         </StackPane.margin>
+      </Rectangle>
+      <Circle fill="#d3acd9" radius="60.0" stroke="BLACK" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets bottom="300.0" left="100.0" right="400.0" top="100.0" />
+         </StackPane.margin>
+      </Circle>
+      <Circle fill="#d3acd9" radius="60.0" stroke="BLACK" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets bottom="300.0" left="700.0" right="400.0" top="100.0" />
+         </StackPane.margin>
+      </Circle>
+      <Circle fill="#d3acd9" radius="60.0" stroke="BLACK" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets top="70.0" />
+         </StackPane.margin>
+      </Circle>
+      <Circle fill="#d3acd9" radius="60.0" stroke="BLACK" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets left="300.0" top="300.0" />
+         </StackPane.margin>
+      </Circle>
+      <Circle fill="#d3acd9" radius="60.0" stroke="BLACK" strokeType="INSIDE">
+         <StackPane.margin>
+            <Insets right="300.0" top="300.0" />
+         </StackPane.margin>
+      </Circle>
+      <ImageView fitHeight="150.0" fitWidth="156.0" onMouseClicked="#selectTheme" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tavel.png" />
+         </image>
+         <StackPane.margin>
+            <Insets bottom="300.0" left="100.0" right="400.0" top="100.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/food.png" />
+         </image>
+         <StackPane.margin>
+            <Insets bottom="300.0" left="700.0" right="400.0" top="100.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/technology.png" />
+         </image>
+         <StackPane.margin>
+            <Insets top="70.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/weather.png" />
+         </image>
+         <StackPane.margin>
+            <Insets right="300.0" top="300.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/culture.png" />
+         </image>
+         <StackPane.margin>
+            <Insets left="300.0" top="300.0" />
+         </StackPane.margin>
+      </ImageView>
+      <Text fx:id="text1" strokeType="OUTSIDE" strokeWidth="0.0" text="TRAVEL">
+         <StackPane.margin>
+            <Insets bottom="140.0" left="100.0" right="400.0" top="100.0" />
+         </StackPane.margin>
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="21.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FOOD">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="21.0" />
+         </font>
+         <StackPane.margin>
+            <Insets bottom="140.0" left="700.0" right="400.0" top="100.0" />
+         </StackPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Technology">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="21.0" />
+         </font>
+         <StackPane.margin>
+            <Insets top="240.0" />
+         </StackPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Weather">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="21.0" />
+         </font>
+         <StackPane.margin>
+            <Insets right="300.0" top="450.0" />
+         </StackPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Culture">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="21.0" />
+         </font>
+         <StackPane.margin>
+            <Insets left="300.0" top="450.0" />
+         </StackPane.margin>
+      </Text>
+   </children>
+</StackPane>
